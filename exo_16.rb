@@ -5,7 +5,7 @@ puts "Ok, voici la pyramide!"
 
 for row in 0..user_input
   row.times {
-    print "-"
+    print " "
   }
   (user_input - row).times {
     print "#"
