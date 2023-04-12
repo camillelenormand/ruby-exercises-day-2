@@ -9,12 +9,13 @@ i = user_birthyear
 age = 0
 current_age = t.year - user_birthyear
 loop do 
-  i += 1
-  puts " #{t.year - i} years ago, you were #{age += 1}"
-  if i == t.year
-    break
-  end
-  if t.year - i == (current_age/2)
-  puts "#{t.year - i} years ago, you were half the age you are today."
+    i += 1
+    if t.year - i == (current_age/2)
+      puts "#{t.year - i} years ago, you were half the age you are today."
+    else 
+      puts " #{t.year - i} years ago, you were #{age += 1}"
+    if i == t.year
+      break
+    end
   end
 end

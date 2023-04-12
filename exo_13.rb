@@ -12,7 +12,8 @@ str2 = "@email.fr"
 email_list = 1.upto(repeat).map {
   |i| str + "#{i}" + str2
 }
-puts "####### emails #########: #{email_list}"
+puts "####### emails #########:"
+puts "#{email_list}"
 
 
 
