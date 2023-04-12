@@ -6,7 +6,7 @@ puts "Hi! Tell me a number"
 puts "Answer here:"
 user_number = gets.chomp.to_i
 puts "Thank you!"
-i = user_number
+i = user_number - 1
 loop do
   i -= 1
   puts i
